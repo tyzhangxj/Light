@@ -15,7 +15,7 @@ public class LightActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
+          
         if (!islight) {  
             Parameters mParameters = camera.getParameters();  
             mParameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);  
