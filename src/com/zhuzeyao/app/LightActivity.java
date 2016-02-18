@@ -8,7 +8,7 @@ import android.os.Bundle;
 public class LightActivity extends Activity {
     /** Called when the activity is first created. */
 	Camera camera = Camera.open();  
-    boolean islight; 
+    boolean islight=false; 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
